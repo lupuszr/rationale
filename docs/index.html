@@ -23,8 +23,16 @@
     target: string
   };
   </code></pre>
+  <pre>
+    <code class="language-klipse-eval-js">
+    [1, 2, 3].map(function(x) {
+      return x + 1;
+    })
+    </code>
+  </pre>
   <script>
     window.klipse_settings = {
+      selector_eval_js: '.language-klipse-eval-js', // css selector for the html elements you want to klipsify
       selector_transpile_reason_3: '.language-transpile-reason', // selector for reason transpilation snippets
       selector_transpile_reason_3_to_ocaml: '.language-transpile-reason-to-ocaml', // selector for reason transpilation into ocaml snippets
       selector_eval_reason_3: '.language-klipse-reason',  // selector for reason evaluation snippets
